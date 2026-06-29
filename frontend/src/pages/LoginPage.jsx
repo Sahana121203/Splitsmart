@@ -40,7 +40,9 @@ export default function LoginPage() {
 
       <div className="w-full max-w-md glass-card p-8 space-y-6 relative z-10">
         <div className="text-center space-y-2">
-          <h1 className="text-heading text-primary-400">SplitSmart</h1>
+          <h1 className="text-4xl font-black tracking-widest bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-400 bg-clip-text text-transparent uppercase">
+            SplitSmart
+          </h1>
           <p className="text-body font-medium">Smart travel expense splitting</p>
         </div>
         <form className="space-y-4" onSubmit={handleSubmit(onSubmit)}>

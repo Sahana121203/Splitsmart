@@ -17,7 +17,7 @@ export default function KittyMiniCard({ kitty, tripId }) {
   const percent = Math.min(kitty.kittyFundedPercent ?? 0, 100)
 
   return (
-    <div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-xl p-4 text-white shadow-lg transition hover:border-white/15 duration-200">
+    <div className="glass-card-cyan">
       <div className="flex justify-between items-center">
         <span className="font-semibold text-gray-300 text-sm tracking-wide">Kitty Pool</span>
         <span

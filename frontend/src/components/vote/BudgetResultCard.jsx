@@ -2,8 +2,8 @@ export default function BudgetResultCard({ voteResult }) {
   if (!voteResult) return null
 
   return (
-    <div className="glass-card border-primary-500/30 p-6 mb-4 shadow-[0_0_20px_rgba(59,130,246,0.1)] hover:border-primary-500/40">
-      <p className="text-[10px] uppercase tracking-wider text-primary-400 font-bold mb-2">
+    <div className="glass-card-purple border-purple-500/30 shadow-[0_0_20px_rgba(168,85,247,0.1)] mb-4">
+      <p className="text-[10px] uppercase tracking-wider text-purple-300 font-bold mb-2">
         Group Budget Range
       </p>
       <p className="text-3xl font-extrabold text-white">

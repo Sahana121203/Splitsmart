@@ -13,8 +13,8 @@ export default function VoteStatusCard({
       : 0
 
   return (
-    <div className="glass-card hover:border-white/10 p-5 space-y-4">
-      <h3 className="text-xs uppercase tracking-wider text-gray-400 font-bold mb-1">Vote Progress</h3>
+    <div className="glass-card-purple">
+      <h3 className="text-xs uppercase tracking-wider text-purple-300 font-bold mb-1">Vote Progress</h3>
 
       <p className="text-sm text-white font-medium">
         {voteStatus.voteCount} of {voteStatus.memberCount} members voted

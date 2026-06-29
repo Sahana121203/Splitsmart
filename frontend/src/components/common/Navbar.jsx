@@ -18,7 +18,9 @@ export default function Navbar({ dark = false }) {
         : 'bg-white border-gray-200 shadow-sm text-gray-800'
     }`}>
       <div className="h-full max-w-6xl mx-auto px-4 flex items-center justify-between">
-        <p className={`font-bold ${dark ? 'text-primary-400' : 'text-primary-600'}`}>SplitSmart</p>
+        <p className="font-black text-lg tracking-wider bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-400 bg-clip-text text-transparent uppercase">
+          SplitSmart
+        </p>
         <div className="flex items-center gap-3">
           <span className={`text-sm ${dark ? 'text-gray-300' : 'text-gray-700'}`}>{user?.name || 'User'}</span>
           <button
@@ -37,4 +39,5 @@ export default function Navbar({ dark = false }) {
     </header>
   )
 }
+
 
