@@ -1,0 +1,87 @@
+# Root .gitignore for Smart Expense Project
+
+# Dependency directories
+node_modules/
+**/node_modules/
+jspm_packages/
+web_modules/
+
+# Build outputs
+dist/
+**/dist/
+dist-ssr/
+build/
+**/build/
+target/
+**/target/
+out/
+**/out/
+
+# Environment variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+**/.env*
+.secrets
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Spring Boot & Java specific
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDEs and Text Editors
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.suo*
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.iml
+*.iws
+*.ipr
+.settings/
+.classpath
+.project
+.factorypath
+.springBeans
+.sts4-cache
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+Windows.ini
+
+# Testing
+/coverage
+/.nyc_output
